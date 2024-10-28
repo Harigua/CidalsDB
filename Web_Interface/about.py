@@ -7,7 +7,7 @@ text = lorem.paragraph()
 meep = Image.open('./Web_Interface/media/Logo_MEEP.png')
 bind = Image.open('./Web_Interface/media/logo_BIND.png')
 ipt = Image.open('./Web_Interface/media/logo_IPT.png')
-compound_distribution = Image.open('./Web_Interface/media/Distribution_of_compounds2.png')
+compound_distribution = Image.open('./Web_Interface/media/Distribution_of_compounds_Covid.png')
 all_logos = Image.open("./Web_Interface/media/all_logos.png")
 def about():
     st.markdown(r"""

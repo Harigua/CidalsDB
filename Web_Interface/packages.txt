@@ -1,4 +1,5 @@
-libgl1-mesa-glx
 libxrender1
+libgl1
+libglib2.0-0
 gcc
 g++

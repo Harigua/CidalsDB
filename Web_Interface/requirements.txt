@@ -16,7 +16,7 @@ lorem-text==2.1
 plotly==5.16.0
 captcha==0.5.0
 torch==2.2.1
-lxml==4.6.1
+lxml==4.9.3 #upgrade lxml version
 dill==0.3.8
 deepchem==2.7.1
 dgllife==0.3.2

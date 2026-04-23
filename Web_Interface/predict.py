@@ -120,8 +120,8 @@ def predict_with_model(smile, model_path):
         z = model.predict_proba([x])
         if (model_path == './Web_Interface/models/Coronavirus_GB.pkl'):
             y = y[0]
-        if (model_path == './Web_Interface/models/Coronavirus_GCN.pkl'):
-            z = z[0]
+        # if (model_path == './Web_Interface/models/Coronavirus_GCN.pkl'):
+            # z = z[0]
     if (y == 1):
         return [y, z[0][1]]
     else:

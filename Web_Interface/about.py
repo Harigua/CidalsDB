@@ -21,7 +21,7 @@ CidalsDB serves as an evolutive platform for democratized and no-code Computer-A
 
 [^2^]: Harigua-Souiai, E. et al. (2021). Deep learning algorithms achieved satisfactory predictions when trained on a novel collection of anticoronavirus molecules. Front. Genet. 12, 744170.
 
-[^3^]: Harigua-Souiai, E., Masmoudi, O.,  Makni, S., Oualha, R., Abdelkrim, Y.Z., Hamdi, S., Souiai, O., Guizani, I. CidalsDB: An AI-empowered platform for anti-pathogen therapeutics research. Submitted.
+[^3^]: Harigua-Souiai, E., Masmoudi, O., Makni, S., Oualha, R., Abdelkrim, Y.Z., Hamdi, S., Souiai, O. and Guizani, I., 2024. cidalsDB: an AI-empowered platform for anti-pathogen therapeutics research. Journal of Cheminformatics, 16(1), p.134.
 
     """)
     st.header("Datasets")

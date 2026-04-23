@@ -93,14 +93,14 @@ def predict_with_model(smile, model_path):
     #st.text(type(model_path))
     #st.write(model_path)
     
-    if model_path == "./Web_Interface/models/Coronavirus_GCN.pkl":
-        #st.text("GCN")
-        with open('./Web_Interface/models/Coronavirus_GCN.pkl', 'rb') as file:
-            gcn_model = dill.load(file)
-        # st.text(gcn_model.keys())
-        [y, z] = gcn_predictor(smile, gcn_model)
-        return [y, z]
-    elif model_path == './Web_Interface/models/Coronavirus_ChemBERTa.pkl':
+    # if model_path == "./Web_Interface/models/Coronavirus_GCN.pkl":
+    #     #st.text("GCN")
+    #     with open('./Web_Interface/models/Coronavirus_GCN.pkl', 'rb') as file:
+    #         gcn_model = dill.load(file)
+    #     # st.text(gcn_model.keys())
+    #     [y, z] = gcn_predictor(smile, gcn_model)
+    #     return [y, z]
+    if model_path == './Web_Interface/models/Coronavirus_ChemBERTa.pkl':
         with open(model_path, 'rb') as file:
             chemberta_model = dill.load(file)
         return chemebrta_predictor(smile, chemberta_model)
